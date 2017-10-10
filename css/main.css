@@ -73,6 +73,7 @@ footer a{
 	color: #000000;
 	padding: 8px;
 	display: list-item;
+	list-style-type: none;
 }
 footer .zocial {
 	margin: 8px 4px;
