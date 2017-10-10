@@ -86,7 +86,6 @@ footer .zocial {
   	text-shadow: 3px 3px 3px #aaa;
   	width: 30px;;
 }
-
 a:hover [class*="zocial-"]:before {
   	color: #3d85c6;
 }
