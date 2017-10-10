@@ -1,0 +1,93 @@
+body {
+}
+header{
+    border-bottom: 4px solid black;
+    background-color: #d5d5d5;
+    text-align: center;
+}
+#logo{
+	width: 250px;
+}
+h1 {
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    font-size: 50px;
+    padding-bottom: 40px;
+    text-transform: uppercase;
+    color: #2c2c2c; 
+    background-color: #d5d5d5;
+    letter-spacing: .05em;
+    text-shadow: 4px 4px 0px #d5d5d5, 7px 7px 0px rgba(0, 0, 0, 0.2);
+}
+h2{
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+	text-align: center;
+	background-color: #d5d5d5;
+	max-width: 800px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0 auto;
+}
+article {
+	border-top: 4px solid black;
+	text-align: center;
+	max-width: 800px;
+    background-color: #d5d5d5;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 4px solid black;
+    line-height: 24px;
+    margin: 0 auto;
+}
+article p{
+	margin: 5%;
+	text-align: justify;
+	font-family: arial;
+    font-size: 18px;
+}
+figcaption {
+  text-align: left;
+  padding: 10px 0;
+  font-weight: bold;
+  text-decoration: underline;
+  text-underline-position: under;
+  margin-left: 20px;
+}
+img {
+  max-width: 100%;
+}
+footer {
+	text-align: center;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    color: #2c2c2c;
+    background-color: #d5d5d5;
+    letter-spacing: .05em;
+    text-shadow: 4px 4px 0px #d5d5d5, 7px 7px 0px rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+footer p{
+	text-transform: uppercase;
+	font-size: 24px;
+}
+footer a{
+	text-decoration: none;
+	color: #000000;
+	padding: 8px;
+	display: list-item;
+}
+footer .zocial {
+	margin: 8px 4px;
+	font-size: 16px;
+}
+[class*="zocial-"]:before {
+  color: black;
+  display: inline-block;
+  font-family: 'zocial', sans-serif;
+  text-shadow: 3px 3px 3px #aaa;
+  width: 30px;;
+}
+
+a:hover [class*="zocial-"]:before {
+  color: #3d85c6;
+}
